@@ -1,0 +1,10 @@
+function App() {
+  return (
+    <div className="text-center mt-20">
+      <h1 className="text-4xl font-bold text-blue-600">My Portfolio is Ready!</h1>
+      <p className="text-gray-500 mt-4">Time to start building Task 1.</p>
+    </div>
+  )
+}
+
+export default App
