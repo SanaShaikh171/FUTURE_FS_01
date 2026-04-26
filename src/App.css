@@ -1,0 +1,22 @@
+.hero-section {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-title {
+  font-size: 4rem;
+  background: linear-gradient(to right, #60a5fa, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.about-card {
+  background: #1e293b;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid #334155;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}

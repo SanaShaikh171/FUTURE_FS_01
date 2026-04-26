@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #0f172a; /* Dark slate background */
+  font-family: 'Inter', system-ui, sans-serif;
+  color: white;
+  line-height: 1.6;
+}
