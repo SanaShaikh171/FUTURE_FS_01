@@ -20,3 +20,74 @@
   border: 1px solid #334155;
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
+/* Existing Hero styles... */
+
+.section-card {
+  background: #1e293b;
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 40px;
+  border-radius: 20px;
+  border: 1px solid #334155;
+}
+
+.section-heading {
+  color: #60a5fa;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+/* Projects Grid */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background: #0f172a;
+  padding: 20px;
+  border-radius: 12px;
+  border: 1px solid #334155;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: #34d399;
+}
+
+.tech-badge {
+  display: inline-block;
+  background: rgba(52, 211, 153, 0.1);
+  color: #34d399;
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  margin: 10px 0;
+}
+
+/* Contact Form */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form input, .contact-form textarea {
+  padding: 12px;
+  background: #0f172a;
+  border: 1px solid #334155;
+  color: white;
+  border-radius: 8px;
+}
+
+.send-btn {
+  background: linear-gradient(to right, #60a5fa, #34d399);
+  color: #0f172a;
+  font-weight: bold;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
