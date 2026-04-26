@@ -5,6 +5,9 @@ Modern, responsive personal portfolio built with React and Vite as part of my Fu
 🧩 Features:
 
 Modern UI: Clean, minimal design focused on readability and usability.
+
 Responsive design: Works well on different screen sizes (mobile, tablet, desktop).
+
 Projects showcase: Highlight key projects with descriptions, tech used, and links.
+
 Contact section: Easy way for visitors or recruiters to reach out.
