@@ -5,7 +5,7 @@ This project showcases my skills, projects, and contact information in a profess
 
 🚀 Live Demo:
 Frontend Deployment:
-https://future-fs-01-ten-gamma.vercel.app/
+[Live link](https://future-fs-01-ten-gamma.vercel.app/)
 
 Backend Deployment:
 https://portfolio-backend-3g6z.onrender.com
