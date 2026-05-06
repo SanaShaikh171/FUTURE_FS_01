@@ -4,8 +4,7 @@ A modern and responsive full-stack portfolio website built using React and Node.
 This project showcases my skills, projects, and contact information in a professional portfolio format.
 
 🚀 Live Demo:
-Frontend Deployment:
-[Live link](https://future-fs-01-ten-gamma.vercel.app/)
+Frontend Deployment: https://future-fs-01-ten-gamma.vercel.app/
 
 Backend Deployment:
 https://portfolio-backend-3g6z.onrender.com
