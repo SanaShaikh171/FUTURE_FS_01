@@ -3,7 +3,7 @@ import { useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { FaReact } from "react-icons/fa";
-
+import emailjs from "@emailjs/browser";
 function App() {
   const [form, setForm] = useState({
     name: "",
@@ -32,21 +32,18 @@ const handleSubmit = async (e) => {
 
   try {
 
-    const response = await fetch("https://portfolio-backend-3g6z.onrender.com/contact", {
-
-      method: "POST",
-
-      headers: {
-        "Content-Type": "application/json",
+    await emailjs.send(
+      "service_lemelxg",
+      "template_5isjx15",
+      {
+        name: form.name,
+        email: form.email,
+        message: form.message,
       },
+      "DnwlcIpjkH4dqufga"
+    );
 
-      body: JSON.stringify(form),
-
-    });
-
-    const data = await response.json();
-
-    alert(data.message);
+    alert("Message sent successfully!");
 
     setForm({
       name: "",
@@ -58,7 +55,7 @@ const handleSubmit = async (e) => {
 
     console.log(error);
 
-    alert("Something went wrong");
+    alert("Failed to send message");
 
   }
 
