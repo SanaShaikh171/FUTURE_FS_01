@@ -1,27 +1,58 @@
 const express = require("express");
 const cors = require("cors");
+const nodemailer = require("nodemailer");
 
 const app = express();
 
 app.use(cors());
 app.use(express.json());
 
-app.post("/contact", (req, res) => {
+const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: "shaikhsana7181@gmail.com",
+    pass: "aicdobejgghfbolk",
+  },
+});
 
-  console.log("ROUTE HIT");
-
-  console.log(req.body);
+app.post("/contact", async (req, res) => {
 
   const { name, email, message } = req.body;
 
-  console.log("Name:", name);
-  console.log("Email:", email);
-  console.log("Message:", message);
+  try {
 
-  res.json({
-    success: true,
-    message: "Message received successfully!"
-  });
+    await transporter.sendMail({
+      from: email,
+      to: "shaikhsana7181@gmail.com",
+
+      subject: "New Portfolio Contact Message",
+
+      html: `
+        <h2>New Message</h2>
+
+        <p><strong>Name:</strong> ${name}</p>
+
+        <p><strong>Email:</strong> ${email}</p>
+
+        <p><strong>Message:</strong> ${message}</p>
+      `,
+    });
+
+    res.status(200).json({
+      success: true,
+      message: "Message sent successfully!",
+    });
+
+  } catch (error) {
+
+    console.log(error);
+
+    res.status(500).json({
+      success: false,
+      message: "Failed to send message",
+    });
+
+  }
 
 });
 
