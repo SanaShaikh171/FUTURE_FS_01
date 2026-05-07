@@ -129,7 +129,8 @@ const handleSubmit = async (e) => {
       </section>
 
       {/* PROJECTS */}
-      <section id="projects" className="section-card">
+    
+    <section id="projects" className="section-card">
 
   <h2 className="section-heading">
     Projects
