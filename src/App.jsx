@@ -17,13 +17,13 @@ const projects = [
     tech: "React, CSS, Framer Motion",
     desc: "A fully responsive personal portfolio website developed with React.js featuring project showcases, skills section, contact form integration, smooth animations, modern UI/UX design, and cloud deployment using Vercel.
 ",
-    image: "https://via.placeholder.com/400x200"
+    image: "/profile.png.png"
   },
   {
     title: "Upcoming Full Stack Project",
     tech: "React, Node.js",
     desc: "Developing a full-stack application with backend integration and API handling.",
-    image: "/profile.png.png"
+    image: "zcx"
   }
 ];
 
