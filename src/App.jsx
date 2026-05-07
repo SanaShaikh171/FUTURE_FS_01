@@ -23,7 +23,7 @@ const projects = [
     title: "Upcoming Full Stack Project",
     tech: "React, Node.js",
     desc: "Developing a full-stack application with backend integration and API handling.",
-    image: "https://via.placeholder.com/400x200"
+    image: "/profile.png.png"
   }
 ];
 
