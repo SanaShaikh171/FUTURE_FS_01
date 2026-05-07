@@ -15,7 +15,7 @@ const projects = [
   {
     title: "Personal Portfolio",
     tech: "React, CSS, Framer Motion",
-    desc: "Modern responsive portfolio website with glassmorphism UI and smooth animations.",
+    desc: "A fully responsive personal portfolio website developed with React.js featuring project showcases, skills section, contact form integration, smooth animations, modern UI/UX design, and cloud deployment using Vercel.",
     image: "/portfolio.png",
     link: "https://future-fs-01-ten-gamma.vercel.app/"
   },
@@ -23,8 +23,12 @@ const projects = [
     title: "CRM Dashboard",
     tech: "React, Node.js ,Express, MongoDB",
     desc: "Developing a full-stack application with backend integration and API handling.",
+
     image: "/CRM.png",
     link: "https://future-fs-02-gamma-mocha.vercel.app/"
+
+
+
   }
 ];
 
