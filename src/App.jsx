@@ -15,7 +15,8 @@ const projects = [
   {
     title: "Personal Portfolio",
     tech: "React, CSS, Framer Motion",
-    desc: "Modern responsive portfolio website with glassmorphism UI and smooth animations.",
+    desc: "A fully responsive personal portfolio website developed with React.js featuring project showcases, skills section, contact form integration, smooth animations, modern UI/UX design, and cloud deployment using Vercel.
+",
     image: "https://via.placeholder.com/400x200"
   },
   {
