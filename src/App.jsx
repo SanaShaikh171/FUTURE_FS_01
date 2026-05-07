@@ -16,13 +16,15 @@ const projects = [
     title: "Personal Portfolio",
     tech: "React, CSS, Framer Motion",
     desc: "Modern responsive portfolio website with glassmorphism UI and smooth animations.",
-    image: "https://via.placeholder.com/400x200"
+    image: "/portfolio.png",
+    link: "https://future-fs-01-ten-gamma.vercel.app/"
   },
   {
-    title: "Upcoming Full Stack Project",
-    tech: "React, Node.js",
+    title: "CRM Dashboard",
+    tech: "React, Node.js ,Express, MongoDB",
     desc: "Developing a full-stack application with backend integration and API handling.",
-    image: "https://via.placeholder.com/400x200"
+    image: "/CRM.png",
+    link: "https://future-fs-02-gamma-mocha.vercel.app/"
   }
 ];
 
@@ -128,21 +130,48 @@ const handleSubmit = async (e) => {
 
       {/* PROJECTS */}
       <section id="projects" className="section-card">
-        <h2 className="section-heading">Projects</h2>
-        <div className="projects-grid">
-          {projects.map((project, index) => (
-            <div key={index} className="project-card">
-              <div className="project-icons">
-                <FaReact />
-              </div>
-              <img src={project.image} alt="project" className="project-img" />
-              <h3>{project.title}</h3>
-              <span className="tech-badge">{project.tech}</span>
-              <p>{project.desc}</p>
-            </div>
-          ))}
+
+  <h2 className="section-heading">
+    Projects
+  </h2>
+
+  <div className="projects-grid">
+
+    {projects.map((project, index) => (
+
+      <a
+        key={index}
+        href={project.link}
+        target="_blank"
+        rel="noreferrer"
+        className="project-card"
+      >
+
+        <div className="project-icons">
+          <FaReact />
         </div>
-      </section>
+
+        <img
+          src={project.image}
+          alt={project.title}
+          className="project-img"
+        />
+
+        <h3>{project.title}</h3>
+
+        <span className="tech-badge">
+          {project.tech}
+        </span>
+
+        <p>{project.desc}</p>
+
+      </a>
+
+    ))}
+
+  </div>
+
+</section>
 
       {/* CONTACT */}
       <section id="contact" className="section-card">

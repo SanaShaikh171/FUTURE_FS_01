@@ -300,3 +300,26 @@ p {
   padding: 30px 20px;
   color: #94a3b8;
 }
+.project-card {
+  text-decoration: none;
+
+  color: inherit;
+
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+}
+
+.project-img {
+  width: 100%;
+
+  height: 220px;
+
+  object-fit: cover;
+
+  border-radius: 14px;
+
+  margin-bottom: 15px;
+}
