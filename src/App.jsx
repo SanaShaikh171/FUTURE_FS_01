@@ -78,7 +78,7 @@ const handleSubmit = async (e) => {
       <header className="hero-section">
         <h1 className="hero-title">Hi, I'm Sana Shaikh</h1>
         <p className="hero-subtitle">
-          I build modern, responsive and scalable web applications. Currently a Full-Stack Developer Intern, I'm passionate about creating seamless user experiences and continuously learning new technologies.
+         I’m a Computer Science Engineering student interested in software development and building useful web applications.
         </p>
         <div className="hero-buttons">
           <a href="#projects" className="hero-btn">
