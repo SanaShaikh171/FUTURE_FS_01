@@ -15,15 +15,14 @@ const projects = [
   {
     title: "Personal Portfolio",
     tech: "React, CSS, Framer Motion",
-    desc: "A fully responsive personal portfolio website developed with React.js featuring project showcases, skills section, contact form integration, smooth animations, modern UI/UX design, and cloud deployment using Vercel.",
+    desc: "A responsive personal portfolio website built with React.js, featuring project showcases, a contact form, interactive UI, and deployment with Vercel.",
     image: "/portfolio.png",
     link: "https://future-fs-01-ten-gamma.vercel.app/"
   },
   {
     title: "CRM Dashboard",
     tech: "React, Node.js ,Express, MongoDB",
-    desc: "Developing a full-stack application with backend integration and API handling.",
-
+    desc: "A full-stack CRM dashboard for managing leads, built with React, Node.js, Express, and MongoDB.",
     image: "/CRM.png",
     link: "https://future-fs-02-gamma-mocha.vercel.app/"
 
@@ -130,7 +129,7 @@ const handleSubmit = async (e) => {
         <p>Full-Stack Development Intern at Future Interns</p>
 
         <h3 style={{ marginTop: "20px" }}>Education</h3>
-        <p>Computer Science Student</p>
+        <p>B.E. Computer Science Engineering, Mangalore Institute of Technology and Engineering</p>
       </section>
 
       {/* PROJECTS */}
