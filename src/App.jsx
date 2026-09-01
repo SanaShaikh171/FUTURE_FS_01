@@ -117,16 +117,17 @@ const handleSubmit = async (e) => {
         <h2 className="section-heading">About Me</h2>
 
         <p>
-          I am a passionate Full-Stack Developer Intern focused on building
-          responsive, scalable, and user-friendly web applications.
-          I enjoy solving problems, learning modern technologies,
-          and creating clean digital experiences.
+        <p>
+          I am a Computer Science Engineering student interested in software
+          development and building useful web applications. I enjoy learning
+          new technologies and improving my skills through practical projects.
+</p>
         </p>
 
         <h3 style={{ marginTop: "20px" }}>Skills</h3>
-        <p>React | JavaScript | HTML | CSS | Java | SQL</p>
+        <p>React | JavaScript | HTML | CSS </p>
         <h3 style={{ marginTop: "20px" }}>Experience</h3>
-        <p>Full-Stack Developer Intern at Future Interns</p>
+        <p>Full-Stack Development Intern at Future Interns</p>
 
         <h3 style={{ marginTop: "20px" }}>Education</h3>
         <p>Computer Science Student</p>
